@@ -1,0 +1,162 @@
+
+.container_12{
+  background: #FAFAFA;
+}
+
+header{
+  height: 70px;
+  background: #000001;
+  position: relative;
+  /*margin-bottom: 0px;*/
+}
+
+.title{
+  color: white;
+  height: 50px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+  font-family: 'Open Sans', sans-serif;
+  /*font-size: 30px;*/
+  /*font-variant: small-caps;*/
+  position: relative;
+}
+
+.nav_list{
+  margin-top: 30px;
+}
+
+nav li{
+  display: inline;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-right: 15px;
+}
+
+nav li a{
+  color: #e3e3e3;
+  text-decoration: none;
+}
+
+nav li a:hover{
+  color: white;
+  text-shadow: 1px 2px 7px white;
+  /*text-decoration: underline;*/
+}
+.primary_2{
+  background: #e3e3e3;
+  margin-top: 0px;
+}
+
+.logo{
+  height: 70px;
+  width: 40px;
+  float: left;
+  margin-left: 10px;
+}
+.service_pic{
+  height: 150px;
+  width: 270px;
+  margin-bottom: 10px;
+}
+
+.service_title{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.main{
+  margin: 30px 0;
+}
+
+section{
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+.hero_element{
+  height: 400px;
+  width: 600px;
+  float: left;
+  align-items: center;
+}
+
+.title_hero{
+  text-align: center;
+}
+.left_insight{
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.left_insight_img{
+  float: left;
+  width: 300px;
+  margin-left:0;
+}
+
+.left_insight_text{
+  float:left;
+}
+
+#performance{
+  width: 540px;
+}
+.right_insight{
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.right_insight_text{
+  float: left;
+}
+
+.right_insight_img{
+  width: 300px;
+}
+
+#strategy{
+  width: 540px;
+}
+
+.primary_5{
+  background: #424242;
+  /*margin-top: 20px;*/
+}
+
+.footer{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.footer_about{
+  float: left;
+}
+
+.footer_tweets{
+  float: left;
+}
+
+.footer_blogroll{
+  float: left;
+}
+
+.footer_contact{
+  float: left;
+}
+
+.footer_text{
+  color: #A4A4A4;
+}
+
+.footer_title{
+  color: white;
+  padding-bottom: 10px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+}
