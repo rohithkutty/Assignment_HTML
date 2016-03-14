@@ -38,6 +38,10 @@ nav li a{
   text-decoration: none;
 }
 
+nav li a:visited{
+  color: purple;
+}
+
 nav li a:hover{
   color: white;
   text-shadow: 1px 2px 7px white;
@@ -103,7 +107,12 @@ nav li a:hover{
 }
 
 .service_text{
+  text-align: center;
   font-family: 'Didact Gothic', sans-serif;
+}
+
+.service_text h4{
+  /*text-align: center; */
 }
 
 .main{
@@ -181,9 +190,12 @@ section{
   font-family: 'Questrial', sans-serif;
 }
 
-/*Animation Css Hover*/
-/* Bob */
-/* float_shadow */
+.portfolio_title h4{
+  text-align: center;
+  font-family: 'Questrial', sans-serif;
+}
+
+/*Title CSS effect*/
 @-webkit-keyframes hvr-float_shadow {
   0% {
     -webkit-transform: translateY(-8px);
@@ -310,22 +322,22 @@ section{
   padding-left: 0;
   padding-right: 0;
 }
-#left_insight_learn a{
+#left_insight_read a{
   color: #01DFA5;
   text-decoration: none;
 }
 
-#right_insight_learn a{
+#right_insight_read a{
   color: #01DFA5;
   text-decoration: none;
 }
 
-#left_insight_learn a:hover{
+#left_insight_read a:hover{
   color: #01DFA5;
   text-decoration: underline;
 }
 
-#right_insight_learn a:hover{
+#right_insight_read a:hover{
   color: #01DFA5;
   text-decoration: underline;
 }
@@ -456,11 +468,6 @@ section{
   line-height: 18px;
 }
 
-/*.separator{
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: #F2F2F2;
-}*/
 .footer_blogroll{
   float: left;
   margin: 0;
@@ -570,10 +577,6 @@ section{
   height: 200px;
   float: left;
   padding-top: 0;
-  /*-webkit-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;*/
 }
 
 .img_line_1:hover{
@@ -671,4 +674,12 @@ section{
   background: #585858;
   position: relative;
   background: white;
+}
+
+.query a{
+  color: inherit;
+  text-decoration: none;
+}
+.query a:hover{
+  text-decoration: underline;
 }
